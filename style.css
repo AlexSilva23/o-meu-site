@@ -1,0 +1,54 @@
+    html{
+        color: white;
+        background-color: black;
+        font-family: monospace;
+    }
+
+
+    header{
+        text-align: center;
+        width: 100vw; 
+        height: 10vh; 
+        background-color: blue;
+    }
+
+    
+
+    h1, p, span{
+        text-align: center;
+    }
+
+    .header_conteudos{
+        color: white;
+        }
+
+    .xddImage, .Wireframes_Figma, .caixa_elementos{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .botao_fixe{
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table.tab_emojis{
+        margin-left:auto; 
+    margin-right:auto;
+    }
+
+    .date_input{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        text-align: center;
+      }
+    
+
+
+    
+    

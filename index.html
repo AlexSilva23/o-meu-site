@@ -5,17 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A minha primeira página</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header class="header">
+        <p>Aulas</p>
+        <a href="https://www.google.com/" target="_blank">Conteudos</a>
+        
+    </header>
+
     <div class="caixa_apresentacao">
-        <p><b>Apresentação</b></p>
         <h1>Olá, o meu nome é Alexandre Silva.</h1>
         <p>Sou um aluno de videojogos e aplicações multimédia na ULP, onde pretendo aprender um pouco mais sobre o desenvolvimento de jogos com o objetivo de um dia mais tarde entrar na indústria...</p>
         <p>Fora disso gosto bastante de futebol tendo o praticado cerca de 8 anos, falando dos meus hobbies e também para terminar, não podia faltar o meu gosto pelo computador
             onde passo muito do meu tempo nele, jogando vários jogos, a ouvir música, ver series/filmes ou até só mesmo a conviver com amigos! 😎😎
         </p>
         
-        <img src="xdd.png" alt="😎">
+        <img src="xdd.png" alt="😎" class="xddImage">
     </div>
 
     <hr>
@@ -38,15 +45,14 @@
 
         <p>Agora que viste o video, tens aqui um botão que faz ... nada 😱</p>
 
-        <button type="button" >
+        <button type="button" class="botao_fixe">
             👍
         </button>
 
-        <br><br>
-        <label>Que dia é hoje?</label>
-        <input type="date">
+        <p>Que dia é hoje?</p>
+        <input type="date"class="date_input">
 
-        <br><p>Agora é a vez de entrar na página ultra secreta, insere o teu nome e password.</p>
+        <p>Agora é a vez de entrar na página ultra secreta, insere o teu nome e password.</p>
         <label>Nome:</label>
         <input placeholder="Rogério" type="text">
         <label>Password:</label>
@@ -54,7 +60,7 @@
         <button onclick="window.location.reload();" type="button">Entrar 🤭</button>
         
         <p><b>Agora vai uma lista de melhores emojis!</b></p>
-        <table>
+        <table class="tab_emojis">
             <tr>
                 <th>Rank</th>
                 <th>Emoji</th>
